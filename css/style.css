@@ -1482,7 +1482,7 @@ wrapper
 .sb-app {
   position: relative;
   overflow: hidden;
-  background-color: #FFFFFF;
+  background-color: transparent;
 }
 
 /***************************
@@ -3816,8 +3816,8 @@ background
 
 ***************************/
 .sb-bg-1 {
-  border-left: solid 30px #FFFFFF;
-  border-right: solid 30px #FFFFFF;
+  /* border-left: solid 30px #FFFFFF; */
+  /* border-right: solid 30px #FFFFFF; */
   position: absolute;
   width: 100%;
   height: 300%;
@@ -3833,7 +3833,7 @@ background
   content: '';
   height: 40vw;
   width: 300%;
-  background-color: #F9FAFC;
+  background-color: transparent;
   position: absolute;
   top: 500px;
   left: -100%;
