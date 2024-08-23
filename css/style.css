@@ -5256,4 +5256,11 @@ illustration 9
   }
 }
 
+@media(max-width: 479px){
+  .card-info{
+    top: -8px !important;
+    right: -48px !important;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
