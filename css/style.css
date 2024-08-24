@@ -5300,6 +5300,11 @@ illustration 9
     right: 0px;
 }
 
+.wp{
+  left: 90px;
+  
+}
+
 
 
 }
@@ -5324,6 +5329,11 @@ illustration 9
 
   .man{
     top: -30px;
+  }
+
+  .wp{
+    left: 100px;
+    top: 82px;
   }
 }
 
