@@ -5290,6 +5290,17 @@ illustration 9
     top: -30px;
   }
 
+  .sb-illustration-1 .sb-girl {
+    position: absolute;
+    width: 100%;
+    height: 116%;
+    object-fit: cover;
+    object-position: top;
+    bottom: -7px;
+    right: 0px;
+}
+
+
 
 }
 
