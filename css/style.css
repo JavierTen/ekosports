@@ -5346,5 +5346,26 @@ illustration 9
 }
 
 
+@media(max-width: 364px){
+  .eko{
+    font-size: 55px;
+    margin-bottom: 2px !important;
+    letter-spacing: 5px;
+  }
+
+  .uniform{
+    font-size: 25px;
+    font-weight: 600;
+  
+  } 
+
+  .slogan{
+    font-weight: 600;
+    font-size: 14px !important;
+  }
+
+}
+
+
 
 /*# sourceMappingURL=style.css.map */
