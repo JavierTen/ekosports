@@ -2428,7 +2428,7 @@ promo
   align-items: center;
   width: 55%;
   height: 100%;
-  background-color: #F9FAFC;
+  background-color: #ffffff;
 }
 
 .sb-promo-frame {
@@ -5251,6 +5251,14 @@ illustration 9
   color: #231E41;
 }
 
+.socialr{
+  width: 20px;
+}
+
+.txt-color{
+  color: #ffff;
+}
+
 @media (max-width: 610px) {
   .subtitle {
     font-size: 30px;
@@ -5265,7 +5273,49 @@ illustration 9
     right: -250px !important;
     z-index: 2;
   }
+
+  .eko{
+    font-size: 70px;
+    margin-bottom: 2px !important;
+    letter-spacing: 5px;
+  }
+
+  .uniform{
+    font-size: 35px;
+    font-weight: 600;
+  
+  } 
+
+  .man{
+    top: -30px;
+  }
+
+
 }
+
+@media(max-width: 479px){
+  .card-info{
+    top: -8px !important;
+    right: -48px !important;
+  }
+
+  .eko{
+    font-size: 60px;
+    margin-bottom: 2px !important;
+    letter-spacing: 5px;
+  }
+
+  .uniform{
+    font-size: 29px;
+    font-weight: 600;
+  
+  }  
+
+  .man{
+    top: -30px;
+  }
+}
+
 
 @media(max-width: 380px){
   .sb-message{
@@ -5274,11 +5324,6 @@ illustration 9
   }
 }
 
-@media(max-width: 479px){
-  .card-info{
-    top: -8px !important;
-    right: -48px !important;
-  }
-}
+
 
 /*# sourceMappingURL=style.css.map */
