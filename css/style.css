@@ -5259,6 +5259,12 @@ illustration 9
   color: #ffff;
 }
 
+.subtitlen{
+  width: 100% !important;
+  text-align: center;
+  margin-top: 20px;
+}
+
 @media (max-width: 610px) {
   .subtitle {
     font-size: 30px;
