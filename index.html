@@ -32,9 +32,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
   <title>Ekosports | Uniformes Deportivos</title>
+
+
 </head>
 
 <body>
+  
+
+  <a href="#." onclick="window.open('https://wa.me/573213470169?text=Hola%20quiero%20información!', '_blank')" class="whatsapp-button" target="_blank">
+    <img src="img/ui/icons/whatsapp.svg" alt="WhatsApp">
+</a>
   <div class="header finisher-header" style="width: 100%; height: 950px; z-index: -2;">
     <!-- Contenido del header -->
      <div class="sb-app">
@@ -60,18 +67,13 @@
 
               </ul>
             </nav>
-            <div class="sb-buttons-frame">
-              <!-- button -->
-              <div class="sb-btn sb-btn-2 sb-btn-gray sb-btn-icon sb-m-0 sb-btn-cart">
-                <span class="sb-icon wp" style="background-color: transparent; box-shadow: inherit;">
-                  <img src="img/ui/icons/whatsapp.svg" style="width: 50px; animation: anima3 3s 1s infinite ease-in-out;" onclick="window.open('https://api.whatsapp.com/send?phone=573213470169', '_blank')"
-                  style="cursor: pointer;" alt="icon">
-                </span>
-
-              </div>
+            <div class="sb-buttons-frame" style="width: 100%;">
+              
               <!-- button end -->
               <!-- menu btn -->
-              
+              <div class="led-marquee">
+                <div class="led-text">- ekosports: Uniformes deportivos a tu medida - Calidad garantizada - Satisfacción total &nbsp;- Ekosports: Uniformes deportivos a tu medida - Calidad garantizada - Satisfacción total</div>
+            </div>
               <!-- info btn -->
               <div class="sb-info-btn"><span></span></div>
             </div>
@@ -1072,6 +1074,19 @@
       ]
     });
     </script>
+    <script type="text/javascript">
+      (function () {
+          var options = {
+              whatsapp: "tu-numero", // Número de WhatsApp
+              call_to_action: "Chatea con nosotros", // Texto del botón
+              position: "right", // Posición del botón
+          };
+          var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+          var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+          s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+          var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+      })();
+  </script>
 
 
 
