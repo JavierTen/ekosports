@@ -5289,26 +5289,23 @@ illustration 9
   background-color: #20b858;
 }
 
-.sb-buttons-frame {
-  position: relative;
-  /* Mantiene la posición del texto dentro del contenedor */
-}
+@media (min-width: 1200px) {
+  .led-marquee {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      box-sizing: border-box;
+      padding: 10px;
+      margin: 10px 0;
+  }
 
-.led-marquee {
-  width: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-  box-sizing: border-box;
-  padding: 10px;
-  margin: 10px 0;
-}
-
-.led-text {
-  display: inline-block;
-  animation: marquee 15s linear infinite;
-  font-size: 15px;
-  color: #231e41;
-  text-transform: uppercase;
+  .led-text {
+      display: inline-block;
+      animation: marquee 15s linear infinite;
+      font-size: 15px;
+      color: #231e41;
+      text-transform: uppercase;
+  }
 }
 
 @keyframes marquee {
@@ -5317,6 +5314,13 @@ illustration 9
   }
   100% { 
       transform: translateX(-50%); 
+  }
+}
+
+/* Ocultar el letrero en pantallas menores a 1200px */
+@media (max-width: 1199px) {
+  .led-marquee {
+      display: none;
   }
 }
 
